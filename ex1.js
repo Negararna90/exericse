@@ -50,3 +50,16 @@
 // exercise 1.4 - Functions
 // Create a function called "myFunction" that returns "Hello!".
 // Answer:
+<html>
+   <body>
+
+      <p id="demo"></p>
+
+          <script>
+            function myFunction(p1) {
+              return p1;
+               }
+           document.getElementById("demo").innerHTML = myFunction("hello!");
+       </script>
+    </body>
+</html>
