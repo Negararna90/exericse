@@ -2,22 +2,33 @@
 // Exercise 1.1 - Variables
 // Create a variable called x, assign the value 50 to it.
 // Answer:
+<>
+    // Exercise 1.1 - Variables
+    // Create a variable called x, assign the value 50 to it.
+    // Answer:
+    <html>
+        <body>
+            <p id="demo"></p>
+            <script>
+                let x = 50;
+                document.getElementById("demo").innerHTML = x;
+            </script>
+        </body>
+</html>
+    // Exercise 1.2 - Operators
+    // Create another variable called y set its value to x times 100.
+    // Answer:
+    <html>
+        <body>
+          <p id="demo"></p>
+          <script>
+             let x = 50;
+               let y = x * 100;
+                 document.getElementById("demo").innerHTML = y;
 
-let x = 50;
-
-
-
-
-
-
-
-
-
-// Exercise 1.2 - Operators
-// Create another variable called y set its value to x times 100.
-// Answer:
-
-
+    </script></>
+</body>
+</html>
 
 
 
